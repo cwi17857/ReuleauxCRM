@@ -20,7 +20,7 @@ from django.urls import path,include
 
 from crm.models import User
 from rest_framework import routers, serializers, viewsets
-
+import crm
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -44,4 +44,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('', include(router.urls)),
+    path('api/cms/', include('crm.urls')),
 ]

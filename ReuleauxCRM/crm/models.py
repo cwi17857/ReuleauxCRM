@@ -121,7 +121,7 @@ class Project(models.Model):
 
 class Session(models.Model):
     sess_id = models.CharField(max_length=10)
-    project = models.ForeignKey(Project, on_delete=models.CASCADE)
+    project = models.ForeignKey(Project, on_delete=models.CASCADE,related_name='session')
     session_name = models.CharField(max_length=30)
     location = models.ForeignKey(Address, on_delete=models.CASCADE)
     date = models.DateField()
