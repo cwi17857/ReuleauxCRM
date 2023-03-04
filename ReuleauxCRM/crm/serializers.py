@@ -13,15 +13,15 @@ class SessionSerializer(serializers.ModelSerializer):
 class ProjectSerializer(serializers.ModelSerializer):
     """Serializer for Project"""
     session = SessionSerializer(many=True,read_only=True)
-    # project_type = serializers.StringRelatedField(source = 'proj_type.name')
-    # customer_fname = serializers.StringRelatedField(source = 'customer.first_name')
-    # customer_lname = serializers.StringRelatedField(source = 'customer.last_name')
-    # customer_id = serializers.IntegerField(source='customer.id')
-    # lead_source = serializers.StringRelatedField(source='lead_source.name')
+    project_type = serializers.StringRelatedField(source = 'proj_type.name')
+    customer_fname = serializers.StringRelatedField(source = 'customer.first_name')
+    customer_lname = serializers.StringRelatedField(source = 'customer.last_name')
+    customer_id = serializers.IntegerField(source='customer.id')
+    lead_source = serializers.StringRelatedField(source='lead_source.name')
     
 
     class Meta:
         model = models.Project
-        fields = ['id', 'proj_id', 'proj_title', 'proj_title','session']
+        fields = ['id','proj_title', 'proj_id','project_type','customer_fname','customer_lname','customer_id', 'lead_source','session']
 
 
