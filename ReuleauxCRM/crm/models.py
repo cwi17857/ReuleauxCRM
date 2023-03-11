@@ -106,21 +106,21 @@ class Address(models.Model):
     state = models.CharField(max_length=30, blank=True)
     pincode = models.CharField(max_length=30)
     def __str__(self):
-        return self.name
+        return self.city
 
 class Project(models.Model):
-    proj_id= models.CharField(max_length=10)
+    proj_id= models.CharField(max_length=10, blank=True, null=True)
     proj_type = models.ForeignKey(ProjectType, on_delete=models.CASCADE)
     proj_title= models.CharField(max_length=50)
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
-    lead_source = models.ForeignKey(LeadSource, on_delete=models.CASCADE)
-    project_status = models.ForeignKey(ProjectStatus, on_delete=models.CASCADE)
+    lead_source = models.ForeignKey(LeadSource, on_delete=models.CASCADE, default=1)
+    project_status = models.ForeignKey(ProjectStatus, on_delete=models.CASCADE, default=1)
     shipping_address= models.ForeignKey(Address, on_delete=models.CASCADE)
     def __str__(self):
         return self.proj_title
 
 class Session(models.Model):
-    sess_id = models.CharField(max_length=10)
+    sess_id = models.CharField(max_length=10,blank=True)
     project = models.ForeignKey(Project, on_delete=models.CASCADE,related_name='session')
     session_name = models.CharField(max_length=30)
     location = models.ForeignKey(Address, on_delete=models.CASCADE)
@@ -145,7 +145,7 @@ class Service(models.Model):
         return self.name
 
 class SessionsServicesMap(models.Model):
-    session = models.ForeignKey(Session, on_delete=models.CASCADE)
+    session = models.ForeignKey(Session, on_delete=models.CASCADE, related_name='services')
     service = models.ForeignKey(Service, on_delete=models.CASCADE)
     qty = models.IntegerField()
     unit_cost = models.FloatField()

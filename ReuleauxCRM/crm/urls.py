@@ -12,8 +12,12 @@ router = DefaultRouter()
 
 router.register('project', views.ProjectViewSet)
 router.register('session', views.SessionViewSet)
+router.register('transection', views.TransactionViewSet)
+
 
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('search/',views.ProjectListView.as_view(), name="project_search"),
+
 ]

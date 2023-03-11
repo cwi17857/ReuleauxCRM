@@ -1,0 +1,173 @@
+/project
+
+{
+    "proj_title": "Nithin + Vaani",
+    "proj_type": 1,
+    "customer": 5,
+    "lead_source": 1,
+    "project_status": 1,
+    "session": [
+        {
+            "session_name": "Girl side Haldi",
+            "date": "2023-03-24",
+            "start_time": "06:00:00",
+            "end_time": "12:00:00",
+            "location": 2,
+            "services": [
+                {
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 3,
+                    "service": 3
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 3,
+                    "service": 4
+                }
+            ]
+        },
+        {
+            "session_name": "Boy side Haldi",
+            "date": "2023-03-25",
+            "start_time": "12:00:00",
+            "end_time": "18:00:00",
+            "location": 2,
+            "services": [
+                {
+                    "id": 7,
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 4,
+                    "service": 3
+                },
+                {
+                    "id": 8,
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 4,
+                    "service": 4
+                }
+            ]
+        },
+        {
+            "session_name": "Welcome",
+            "date": "2023-03-26",
+            "start_time": "03:00:00",
+            "end_time": "05:00:00",
+            "location": 2,
+            "services": [
+                {
+                    "qty": 1,
+                    "unit_cost": 1000.0,
+                    "total_cost": 1000.0,
+                    "session": 5,
+                    "service": 3
+                },
+                {
+                    "id": 10,
+                    "qty": 1,
+                    "unit_cost": 1000.0,
+                    "total_cost": 1000.0,
+                    "session": 5,
+                    "service": 4
+                }
+            ]
+        },
+        {
+            "session_name": "Reception",
+            "date": "2023-03-26",
+            "start_time": "06:00:00",
+            "end_time": "11:00:00",
+            "location": 2,
+            "services": [
+                {
+                    "qty": 1,
+                    "unit_cost": 10000.0,
+                    "total_cost": 10000.0,
+                    "session": 6,
+                    "service": 1
+                },
+                {
+                    "id": 12,
+                    "qty": 1,
+                    "unit_cost": 12000.0,
+                    "total_cost": 12000.0,
+                    "session": 6,
+                    "service": 2
+                },
+                {
+                    "id": 13,
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 6,
+                    "service": 3
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 6,
+                    "service": 4
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 12000.0,
+                    "total_cost": 12000.0,
+                    "session": 6,
+                    "service": 5
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 6000.0,
+                    "total_cost": 6000.0,
+                    "session": 6,
+                    "service": 6
+                }
+            ]
+        },
+        {
+            "session_name": "Muhurtham",
+            "date": "2023-03-26",
+            "start_time": "06:00:00",
+            "end_time": "12:00:00",
+            "location": 2,
+            "services": [
+                {
+                    "qty": 1,
+                    "unit_cost": 10000.0,
+                    "total_cost": 10000.0,
+                    "session": 7,
+                    "service": 1
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 12000.0,
+                    "total_cost": 12000.0,
+                    "session": 7,
+                    "service": 2
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 7,
+                    "service": 3
+                },
+                {
+                    "qty": 1,
+                    "unit_cost": 5000.0,
+                    "total_cost": 5000.0,
+                    "session": 7,
+                    "service": 4
+                }
+            ]
+        }
+    ]
+}
