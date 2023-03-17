@@ -1,173 +1,137 @@
-/project
-
 {
-    "proj_title": "Nithin + Vaani",
+    "first_name": "Gururaj",
+    "last_name": "Desai",
+    "email": "aditi@gmail.com",
+    "phone": "9083677456",
     "proj_type": 1,
-    "customer": 5,
+    "proj_title": "Gururaj + Krithi - Wedding",
     "lead_source": 1,
-    "project_status": 1,
-    "session": [
+    "shipping_address": "Bangalore",
+    "es_dliverables": [
         {
-            "session_name": "Girl side Haldi",
-            "date": "2023-03-24",
-            "start_time": "06:00:00",
-            "end_time": "12:00:00",
-            "location": 2,
-            "services": [
-                {
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 3,
-                    "service": 3
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 3,
-                    "service": 4
-                }
-            ]
-        },
-        {
-            "session_name": "Boy side Haldi",
-            "date": "2023-03-25",
-            "start_time": "12:00:00",
-            "end_time": "18:00:00",
-            "location": 2,
-            "services": [
-                {
-                    "id": 7,
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 4,
-                    "service": 3
-                },
-                {
-                    "id": 8,
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 4,
-                    "service": 4
-                }
-            ]
-        },
-        {
-            "session_name": "Welcome",
-            "date": "2023-03-26",
-            "start_time": "03:00:00",
-            "end_time": "05:00:00",
-            "location": 2,
-            "services": [
-                {
-                    "qty": 1,
-                    "unit_cost": 1000.0,
-                    "total_cost": 1000.0,
-                    "session": 5,
-                    "service": 3
-                },
-                {
-                    "id": 10,
-                    "qty": 1,
-                    "unit_cost": 1000.0,
-                    "total_cost": 1000.0,
-                    "session": 5,
-                    "service": 4
-                }
-            ]
-        },
-        {
-            "session_name": "Reception",
-            "date": "2023-03-26",
-            "start_time": "06:00:00",
-            "end_time": "11:00:00",
-            "location": 2,
-            "services": [
-                {
-                    "qty": 1,
-                    "unit_cost": 10000.0,
-                    "total_cost": 10000.0,
-                    "session": 6,
-                    "service": 1
-                },
-                {
-                    "id": 12,
-                    "qty": 1,
-                    "unit_cost": 12000.0,
-                    "total_cost": 12000.0,
-                    "session": 6,
-                    "service": 2
-                },
-                {
-                    "id": 13,
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 6,
-                    "service": 3
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 6,
-                    "service": 4
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 12000.0,
-                    "total_cost": 12000.0,
-                    "session": 6,
-                    "service": 5
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 6000.0,
-                    "total_cost": 6000.0,
-                    "session": 6,
-                    "service": 6
-                }
-            ]
-        },
-        {
-            "session_name": "Muhurtham",
-            "date": "2023-03-26",
-            "start_time": "06:00:00",
-            "end_time": "12:00:00",
-            "location": 2,
-            "services": [
-                {
-                    "qty": 1,
-                    "unit_cost": 10000.0,
-                    "total_cost": 10000.0,
-                    "session": 7,
-                    "service": 1
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 12000.0,
-                    "total_cost": 12000.0,
-                    "session": 7,
-                    "service": 2
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 7,
-                    "service": 3
-                },
-                {
-                    "qty": 1,
-                    "unit_cost": 5000.0,
-                    "total_cost": 5000.0,
-                    "session": 7,
-                    "service": 4
-                }
-            ]
+            "name": "Smart Book LS002",
+            "qty": 2,
+            "unit_cost": 13000.0
         }
+    ],
+    "es_sessions": [
+        {
+                "services": [
+                    {
+                        "name": "Traditional Photo",
+                        "unit_cost": 5000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Traditional Video",
+                        "unit_cost": 5000.0,
+                        "qty": 2,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    }
+                ],
+                "session_name": "Haldi",
+                "location": "Ankola",
+                "date": "2023-03-12",
+                "start_time": "06:16:13",
+                "end_time": "06:16:14"
+            },
+            {
+                "services": [
+                    {
+                        "name": "Traditional Photo",
+                        "unit_cost": 5000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Traditional Video",
+                        "unit_cost": 5000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Candid Photo",
+                        "unit_cost": 8000.0,
+                        "qty": 2,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Candid Video",
+                        "unit_cost": 10000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Drone",
+                        "unit_cost": 6000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "HD Mixing",
+                        "unit_cost": 12000.0,
+                        "qty": 1,
+                        "is_deliverable": false,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "LED Wall 6X8",
+                        "unit_cost": 6000.0,
+                        "qty": 1,
+                        "is_deliverable": false,
+                        "service_group": 1
+                    }
+                ],
+                "session_name": "Reception",
+                "location": "Bangalore",
+                "date": "2023-03-12",
+                "start_time": "06:41:10",
+                "end_time": "06:41:11"
+            },
+            {
+                "services": [
+                    {
+                        "name": "Traditional Photo",
+                        "unit_cost": 5000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Traditional Video",
+                        "unit_cost": 5000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Candid Photo",
+                        "unit_cost": 8000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    },
+                    {
+                        "name": "Candid Video",
+                        "unit_cost": 10000.0,
+                        "qty": 1,
+                        "is_deliverable": true,
+                        "service_group": 1
+                    }
+                ],
+                "session_name": "Wedding",
+                "location": "Bangalore",
+                "date": "2023-03-12",
+                "start_time": "06:41:37",
+                "end_time": "06:41:38"
+            }
     ]
 }

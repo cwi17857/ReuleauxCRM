@@ -8,3 +8,6 @@ Pillow==9.1.1
 pytz==2022.1
 sqlparse==0.4.2
 zipp==3.8.0
+
+
+/Users/prashantachari/Documents/ReuleauxV1/ReuleauxCRM
